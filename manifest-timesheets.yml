@@ -4,7 +4,5 @@ applications:
   host: timesheets-pal-avkj
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-avkj.apps.longs.pal.pivotal.io
   services:
   - tracker-timesheets-database
